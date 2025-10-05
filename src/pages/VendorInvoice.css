@@ -1,0 +1,10 @@
+/* Make the bill text larger for PDF generation */
+.pdf-bill-large {
+  font-size: 1.6rem !important;
+}
+
+/* Optionally, make table and headings larger too */
+.pdf-bill-large .MuiTableCell-root,
+.pdf-bill-large .MuiTypography-root {
+  font-size: 1.5rem !important;
+} 
